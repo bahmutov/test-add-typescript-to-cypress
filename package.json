@@ -7,7 +7,9 @@
     "test": "cypress run",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "unit": "jest test.ts"
+    "unit": "jest test.ts",
+    "check": "tsc --noEmit --pretty",
+    "check:cy": "tsc --noEmit --pretty --project cypress"
   },
   "repository": {
     "type": "git",

@@ -9,6 +9,11 @@ node_js:
   - '8'
 before_script:
   - npm prune
+script:
+  - npm run check
+  - npm run check:cy
+  - npm run unit
+  - npm run cy:run
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
