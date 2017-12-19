@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bahmutov/test-add-typescript-to-cypress.svg?branch=master)](https://travis-ci.org/bahmutov/test-add-typescript-to-cypress)
+
 > Testing module [add-typescript-to-cypress](https://github.com/bahmutov/add-typescript-to-cypress)
 
 This project shows how Cypress TypeScript definitions can be isolated
