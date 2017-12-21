@@ -9,7 +9,8 @@
     "cy:run": "cypress run",
     "unit": "jest test.ts",
     "check": "tsc --noEmit --pretty",
-    "check:cy": "tsc --noEmit --pretty --project cypress"
+    "check:cy": "tsc --noEmit --pretty --project cypress",
+    "lint": "npm run check:cy && npm run check"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
     "@bahmutov/add-typescript-to-cypress": "^1.1.1",
     "@types/chai": "^4.0.10",
     "@types/jest": "^21.1.8",
-    "cypress": "^1.3.0",
+    "cypress": "1.4.0",
     "jest": "^22.0.3",
     "ts-jest": "^22.0.0",
     "typescript": "^2.6.2"
